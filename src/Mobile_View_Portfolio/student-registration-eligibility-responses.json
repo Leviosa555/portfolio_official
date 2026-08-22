@@ -1,0 +1,34 @@
+[
+  {
+    "submission_id": 35,
+    "submitted_at": "2026-08-13 04:06:22.864112+00:00",
+    "status": "submitted",
+    "Full Name": "Junaid B",
+    "Email": "junaid@gmail.com",
+    "Age": "21",
+    "Student Status": "student",
+    "College Name": "S G Balekundri Institute of Technology",
+    "Company Name": "",
+    "Experience": "",
+    "Student ID": "2BU00CS600",
+    "Registration Date": "2026-08-10",
+    "Your Status (Other)": "",
+    "Upload Proof of Document": "http://127.0.0.1:8000/api/uploads/Ng:1wwAIM:ZZC5k_sGSPg-Q6K77ax33objUIktCn9_WDsnX8Otw60/"
+  },
+  {
+    "submission_id": 36,
+    "submitted_at": "2026-08-13 04:06:55.082401+00:00",
+    "status": "submitted",
+    "Full Name": "Junaid B",
+    "Email": "junaid@gmail.com",
+    "Age": "22",
+    "Student Status": "working",
+    "College Name": "",
+    "Company Name": "Oracle",
+    "Experience": "0",
+    "Student ID": "",
+    "Registration Date": "2026-08-11",
+    "Your Status (Other)": "",
+    "Upload Proof of Document": "http://127.0.0.1:8000/api/uploads/Nw:1wwAIM:LXaFYhs25QG-nbIyc0CZJvIV5MvaEmJhPczlcNTNt-M/"
+  }
+]
