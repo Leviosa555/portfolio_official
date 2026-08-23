@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { LoadingScreen } from './components/LoadingScreen';
 import { Hero } from './sections/Hero';
 import { About } from './sections/About';
@@ -105,6 +106,7 @@ function App() {
           )}
         </>
       )}
+      <Analytics />
     </>
   );
 }
