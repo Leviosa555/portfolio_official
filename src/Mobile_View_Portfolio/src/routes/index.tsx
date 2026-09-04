@@ -90,7 +90,7 @@ const caseStudies = [
     domain: "Full-Stack · AI & Backend",
     title: "FormCraft — Low-Code Dynamic Form Platform",
     stack: "Python · FastAPI · PostgreSQL · React.js",
-    tags: ["FastAPI", "PostgreSQL", "React.js", "Gemini API", "Brevo API", "PWA"],
+    tags: ["FastAPI", "PostgreSQL", "React.js"],
     blurb:
       "Scalable low-code dynamic form builder platform for data collection workflows. Features schema versioning, server-side conditional logic validation, AI-based form generation via Gemini API, Brevo OTP verification, and PWA analytics with CSV/JSON exports.",
     image: formcraftShot,

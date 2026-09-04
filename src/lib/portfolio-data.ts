@@ -61,7 +61,7 @@ export const projects: Project[] = [
     description: "Scalable low-code form builder platform for dynamic data collection workflows supporting schema versioning, AI-driven form generation via Gemini API, server-side conditional validation, Brevo OTP verification, and PWA analytics.",
     image: "/fromcraft.png",
     accent: "from-[#10B981]/30 to-transparent",
-    tech: ["Python", "FastAPI", "PostgreSQL", "React.js", "Gemini API", "Brevo API"],
+    tech: ["Python", "FastAPI", "PostgreSQL", "React.js"],
     //demo: "#",
     //github: "#"
   },
