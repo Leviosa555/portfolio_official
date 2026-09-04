@@ -19,6 +19,13 @@ interface InternshipExperience {
 export const Internship: React.FC = () => {
   const experiences: InternshipExperience[] = [
     {
+      role: "Python Intern",
+      company: "Infosys Springboard 7.0",
+      location: "Remote",
+      period: "Jul 2026 – Sep 2026",
+      description: "Completed a structured Python-focused remote internship covering core programming, OOP, database concepts, and software development practices. Engineered a capstone backend system using FastAPI, PostgreSQL, and REST APIs, applying scalable system design, validation logic, and real-world problem-solving techniques."
+    },
+    {
       role: "Data Analytics Intern",
       company: "Rooman Technologies",
       location: "Bangalore, India",

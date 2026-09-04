@@ -19,9 +19,11 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 
 import avatar from "@/assets/avatar.jpg";
 import project1 from "@/assets/project-1.jpg";
+import formcraftShot from "@/assets/fromcraft.png";
 import campusdriveShot from "@/assets/campusdrive.png";
 import cyberscanShot from "@/assets/cyberscan.png";
 import resume from "@/assets/resume.pdf";
+import infosysLogo from "@/assets/Infosys-Springboard.webp";
 import roomanLogo from "@/assets/Rooman.webp";
 import excelerateLogo from "@/assets/Excelerate.png";
 import vaultLogo from "@/assets/vaultofcodes.jpg";
@@ -55,6 +57,8 @@ export const Route = createFileRoute("/")({
 
 const skills = [
   "Python",
+  "FastAPI",
+  "PostgreSQL",
   "JavaScript",
   "SQL",
   "React.js",
@@ -71,6 +75,7 @@ const skills = [
 ];
 
 const brands = [
+  "Infosys Springboard",
   "Rooman Technologies",
   "Excelerate",
   "VaultofCodes",
@@ -82,6 +87,17 @@ const brands = [
 const caseStudies = [
   {
     index: "01",
+    domain: "Full-Stack · AI & Backend",
+    title: "FormCraft — Low-Code Dynamic Form Platform",
+    stack: "Python · FastAPI · PostgreSQL · React.js",
+    tags: ["FastAPI", "PostgreSQL", "React.js", "Gemini API", "Brevo API", "PWA"],
+    blurb:
+      "Scalable low-code dynamic form builder platform for data collection workflows. Features schema versioning, server-side conditional logic validation, AI-based form generation via Gemini API, Brevo OTP verification, and PWA analytics with CSV/JSON exports.",
+    image: formcraftShot,
+    alt: "FormCraft low-code dynamic form workflow platform interface",
+  },
+  {
+    index: "02",
     domain: "Data Analytics",
     title: "E-Commerce Sales Dashboard with Cohort Analysis",
     stack: "Python · Power BI · DAX",
@@ -92,7 +108,7 @@ const caseStudies = [
     alt: "E-commerce sales analytics dashboard with retention cohorts",
   },
   {
-    index: "02",
+    index: "03",
     domain: "Full-Stack · Mobile",
     title: "CampusDrive — Live Bus Tracking App",
     stack: "React.js · Firebase · OSRM API · Android",
@@ -103,7 +119,7 @@ const caseStudies = [
     alt: "Bus tracking app screen with live map and stop ETAs",
   },
   {
-    index: "03",
+    index: "04",
     domain: "Cybersecurity",
     title: "CyberScan — Malicious URL Scanner",
     stack: "React.js · Node.js · REST APIs",
@@ -172,6 +188,13 @@ const journey: {
   text: string;
   logo?: string;
 }[] = [
+    {
+      org: "Infosys Springboard 7.0",
+      logo: infosysLogo,
+      role: "Python Intern",
+      period: "Jul 2026 – Sep 2026 · Remote",
+      text: "Completed structured Python internship covering OOP, database systems and software engineering principles. Engineered a capstone backend system using FastAPI, PostgreSQL and REST APIs with conditional validation logic.",
+    },
     {
       org: "Rooman Technologies",
       logo: roomanLogo,
@@ -442,7 +465,7 @@ function Index() {
               </span>
               <span className="flex items-center gap-1.5 text-muted-foreground">
                 <Star className="size-3.5 text-accent-foreground" />
-                4 Internships
+                5 Internships
               </span>
             </div>
 

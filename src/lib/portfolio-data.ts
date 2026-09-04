@@ -57,6 +57,15 @@ export const education: EducationItem[] = [
 
 export const projects: Project[] = [
   {
+    title: "FormCraft – Low-Code Dynamic Form Platform",
+    description: "Scalable low-code form builder platform for dynamic data collection workflows supporting schema versioning, AI-driven form generation via Gemini API, server-side conditional validation, Brevo OTP verification, and PWA analytics.",
+    image: "/fromcraft.png",
+    accent: "from-[#10B981]/30 to-transparent",
+    tech: ["Python", "FastAPI", "PostgreSQL", "React.js", "Gemini API", "Brevo API"],
+    //demo: "#",
+    //github: "#"
+  },
+  {
     title: "E-Commerce Sales Performance Dashboard with Cohort Analysis",
     description: "Interactive Power BI analytics platform mapping customer retention, cohort analysis, and sales metrics, driven by an automated python data preprocessing pipeline.",
     image: "/ecommerce_dashboard_mockup.png",
