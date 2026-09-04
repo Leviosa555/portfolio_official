@@ -57,7 +57,7 @@ export const education: EducationItem[] = [
 
 export const projects: Project[] = [
   {
-    title: "E-Commerce Sales Performance Dashboard with Cohort Analysis",
+    title: "E-Commerce Sales Performance Dashboard with Cohort",
     description: "Interactive Power BI analytics platform mapping customer retention, cohort analysis, and sales metrics, driven by an automated python data preprocessing pipeline.",
     image: "/ecommerce_dashboard_mockup.png",
     accent: "from-[#006699]/30 to-transparent",
@@ -75,7 +75,7 @@ export const projects: Project[] = [
     github: "#"
   },
   {
-    title: "CyberScan",
+    title: "CyberScan - Web Application",
     description: "Web application mapping security reports and threat intelligence by aggregating multiple cybersecurity REST APIs to compute custom risk scores and security recommendations.",
     image: "/cyberscan_security_mockup.png",
     accent: "from-[#7621B0]/30 to-transparent",

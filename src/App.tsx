@@ -10,6 +10,7 @@ import { Internship } from './sections/Internship';
 import { Activities } from './sections/Activities';
 import { Contact } from './sections/Contact';
 import { MobilePortfolio } from './components/mobile/MobilePortfolio';
+import { DirectionalCursor } from './components/DirectionalCursor';
 import { useIsDesktop } from './hooks/useMediaQuery';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -91,6 +92,7 @@ function App() {
           ) : (
             /* Desktop Layout (screen width >= 1024px) */
             <div className="relative min-h-screen bg-background text-foreground overflow-x-hidden transition-colors duration-400">
+              <DirectionalCursor />
               {!loading && <Navbar />}
               {/* Cinematic desktop layout */}
               <Hero isExiting={isExiting} isLoaded={!loading} />
